@@ -60,10 +60,6 @@ package main.java.jdbc;
         : 반복 코드가 많음(연결, 해제의 반복)
         - 객체지향 설계가 어려움(테이블 = 객체 구조가 아님)
         >> 해당 단점을 보완하여 JPA, MyBatis를 학습
-
-
 */
-
-
 public class Jdbc01 {
 }

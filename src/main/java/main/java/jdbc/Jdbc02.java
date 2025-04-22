@@ -34,6 +34,5 @@ package main.java.jdbc;
     4. Connection 객체를 통해 DB 작업 수행
     5. 연결 종료
 */
-
 public class Jdbc02 {
 }
