@@ -12,7 +12,7 @@ public class PostView {
         System.out.println("\n===게시판 메뉴===");
         System.out.println("1. 게시글 작성");
         System.out.println("2. 게시글 전체 조회");
-        System.out.println("3. 게시글 단건 조회");
+        System.out.println("3. 게시글 단건 조회(상세보기)");
         System.out.println("4. 게시글 수정");
         System.out.println("5. 게시글 삭제");
         System.out.println("0. 프로그램 종료");
@@ -40,7 +40,7 @@ public class PostView {
             return;
         }
 
-        System.out.print("\n[게시글 상세 보기]");
-        System.out.print(post);
+        System.out.println("\n[ 게시글 상세 보기]");
+        System.out.println(post);
     }
 }
